@@ -1,0 +1,67 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20230601235645
+Username: DESKTOP-94CJR9E\andreikosinets
+RunAs User: DESKTOP-94CJR9E\andreikosinets
+Configuration Name: 
+Machine: DESKTOP-94CJR9E (Microsoft Windows NT 10.0.22621.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 15732
+PSVersion: 5.1.22621.963
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.22621.963
+BuildVersion: 10.0.22621.963
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+
+Running with PowerShell version 5.1 and VMware PowerCLI version 12.5.0 build 19195797
+
+Adding base Offline bundle .\ESXi670-202207001.zip ...
+ [OK]
+
+Connecting the V-Front Online depot ...
+ [OK]
+
+Getting Imageprofiles, please wait ...
+ [OK]
+
+Using Imageprofile ESXi-6.7.0-20220704001-standard ...
+(Dated 06/23/2022 06:48:06, AcceptanceLevel: PartnerSupported,
+Updates ESXi 6.7 Image Profile-ESXi-6.7.0-20220704001-standard)
+
+Loading Offline bundles and VIB files from .\pkg ...
+   Loading C:\Users\andko\Downloads\esxi3\pkg\ESXi670-VMKUSB-NIC-FLING-39203948-offline_bundle-16780994(1).zip ...
+ [OK]
+      Add VIB vmkusb-nic-fling 2.1-6vmw.670.2.48.39203948
+ [OK, added]
+   Loading C:\Users\andko\Downloads\esxi3\pkg\nvme-community-driver_1.0.1.0-1vmw.670.0.0.8169922-offline_bundle-17658145.zip ...
+ [OK]
+      Add VIB nvme-community 1.0.1.0-1vmw.670.0.0.8169922
+ [OK, added]
+   Loading C:\Users\andko\Downloads\esxi3\pkg\VMware_bootbank_vmware-esx-esxcli-nvme-plugin_1.2.0.32-0.0.8169922.vib ...
+ [OK]
+      Add VIB vmware-esx-esxcli-nvme-plugin 1.2.0.32-0.0.8169922
+ [OK, replaced 1.2.0.36-2vmw.670.3.116.16713306]
+   Loading C:\Users\andko\Downloads\esxi3\pkg\VMW_bootbank_nvme_1.2.1.34-1vmw.670.0.0.8169922.vib ...
+ [OK]
+      Add VIB nvme 1.2.1.34-1vmw.670.0.0.8169922
+ [OK, replaced 1.2.2.28-5vmw.670.3.159.18828794]
+
+Load additional VIBs from Online depots ...
+   Add VIB net55-r8168 8.045a-napi
+ [New AcceptanceLevel: CommunitySupported]
+ [OK, added]
+   Add VIB sata-xahci 1.42-1
+ [OK, added]
+
+Exporting the Imageprofile to '.\out9\ESXi-6.7.0-20220704001-standard-customized.iso'. Please be patient ...
+
+
+All done.
+**********************
+Windows PowerShell transcript end
+End time: 20230601235837
+**********************
